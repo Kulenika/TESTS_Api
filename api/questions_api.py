@@ -1,6 +1,5 @@
 from api.client import Client
 import json
-
 class Api(Client):
     USERS = '/users'
     REGISTER = '/register'

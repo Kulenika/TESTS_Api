@@ -1,6 +1,5 @@
 from api.client import Client
 
-
 class HttpBinApi(Client):
     HTML = '/html'
     BASE_URL = 'http://httpbin.org'

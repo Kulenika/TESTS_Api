@@ -54,12 +54,3 @@ def test_create():
     assert api.delete_user(res.json()['id']).status_code == HTTPStatus.NO_CONTENT
 
 
-#def test_create():
-    #name = 'Anna'
-    #job = 'Tester'
-    #res = api.create(name, job)
-    #assert res.status_code == HTTPStatus.CREATED
-    #assert res.json()['name'] == name
-    #assert res.json()['job'] == job
-
-    #assert api.delete_user(res.json()['id']).status_code == HTTPStatus.NO_CONTENT

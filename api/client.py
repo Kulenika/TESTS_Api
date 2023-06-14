@@ -1,6 +1,5 @@
 import requests
 
-
 class Client:
     @staticmethod
     def get(url, timeout=5):

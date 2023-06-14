@@ -1,7 +1,6 @@
 from utils.assertions import Assert
 from http import HTTPStatus
 from api.questions_api import api
-
 def test_registration():
     email = 'eve.holt@reqres.in'
     password = 'language8'

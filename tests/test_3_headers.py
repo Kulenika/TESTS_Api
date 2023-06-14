@@ -4,7 +4,6 @@ from utils.assertions import Assert
 from api.httpbin import http_bin_api
 from http import HTTPStatus
 
-
 def test_list_html():
     resp = http_bin_api.list_html()
     assert resp.status_code == HTTPStatus.OK
